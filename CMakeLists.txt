@@ -15,4 +15,6 @@ add_executable(untitled3 main.c
         libs/data_structures/bitset/bitset.c
         libs/algorithms/algorithm.c
         libs/algorithms/array/array.c
+        libs/data_structures/string/string.c
+        libs/data_structures/string/string.h
 )
