@@ -14,4 +14,5 @@ add_executable(untitled3 main.c
         libs/data_structures/ordered_array_set/ordered_set.c
         libs/data_structures/bitset/bitset.c
         libs/algorithms/algorithm.c
+        libs/algorithms/array/array.c
 )
