@@ -1,4 +1,9 @@
 #include <assert.h>
+#include <stdio.h>
+#include "libs/algorithms/array/array.h"
+#include "libs/data_structures/bitset/bitset.h"
+#include "libs/data_structures/unordered_array_set/unordered_set.h"
+#include "libs/data_structures/ordered_array_set/ordered_set.h"
 
 #include "libs/data_structures/matrix/matrix.h"
 
@@ -462,7 +467,31 @@ void test() {
 
 
 int main() {
-    test();
+    int amount_blocks;
+    scanf("%d", &amount_blocks);
 
-    return 0;
+    unordered_array_set set = unordered_array_set_create(1000);
+    for (int j = 0; j < 1000; j++){
+        set.data[j] = 0;
+        set.size++;
+    }
+    for (int i_block; i_block < amount_blocks; i_block++){
+        int block;
+        scanf("%d", &block);
+
+        set.data[block - 1]++;
+    }
+
+    int max_height = 0;
+    int amount_towers = 0;
+    for (int i = 0; i < 1000; i++){
+        if (set.data[i] > max_height)
+            max_height = set.data[i];
+
+        if (set.data[i] > 0)
+            amount_towers++;
+    }
+
+    printf("%d %d", max_height, amount_towers);
+return 0;
 }

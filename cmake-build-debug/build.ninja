@@ -61,6 +61,42 @@ build CMakeFiles/untitled3.dir/libs/data_structures/matrix/matrix.c.obj: C_COMPI
   OBJECT_DIR = CMakeFiles\untitled3.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\libs\data_structures\matrix
 
+build CMakeFiles/untitled3.dir/libs/data_structures/vector_void/vector_void.c.obj: C_COMPILER__untitled3_unscanned_Debug C$:/Users/ReTro/CLionProjects/untitled3/libs/data_structures/vector_void/vector_void.c || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\libs\data_structures\vector_void\vector_void.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\libs\data_structures\vector_void
+
+build CMakeFiles/untitled3.dir/libs/data_structures/vector/vector.c.obj: C_COMPILER__untitled3_unscanned_Debug C$:/Users/ReTro/CLionProjects/untitled3/libs/data_structures/vector/vector.c || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\libs\data_structures\vector\vector.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\libs\data_structures\vector
+
+build CMakeFiles/untitled3.dir/libs/data_structures/unordered_array_set/unordered_set.c.obj: C_COMPILER__untitled3_unscanned_Debug C$:/Users/ReTro/CLionProjects/untitled3/libs/data_structures/unordered_array_set/unordered_set.c || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\libs\data_structures\unordered_array_set\unordered_set.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\libs\data_structures\unordered_array_set
+
+build CMakeFiles/untitled3.dir/libs/data_structures/ordered_array_set/ordered_set.c.obj: C_COMPILER__untitled3_unscanned_Debug C$:/Users/ReTro/CLionProjects/untitled3/libs/data_structures/ordered_array_set/ordered_set.c || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\libs\data_structures\ordered_array_set\ordered_set.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\libs\data_structures\ordered_array_set
+
+build CMakeFiles/untitled3.dir/libs/data_structures/bitset/bitset.c.obj: C_COMPILER__untitled3_unscanned_Debug C$:/Users/ReTro/CLionProjects/untitled3/libs/data_structures/bitset/bitset.c || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\libs\data_structures\bitset\bitset.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\libs\data_structures\bitset
+
+build CMakeFiles/untitled3.dir/libs/algorithms/algorithm.c.obj: C_COMPILER__untitled3_unscanned_Debug C$:/Users/ReTro/CLionProjects/untitled3/libs/algorithms/algorithm.c || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\libs\algorithms\algorithm.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\libs\algorithms
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled3
@@ -69,7 +105,7 @@ build CMakeFiles/untitled3.dir/libs/data_structures/matrix/matrix.c.obj: C_COMPI
 #############################################
 # Link the executable untitled3.exe
 
-build untitled3.exe: C_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/main.c.obj CMakeFiles/untitled3.dir/libs/data_structures/matrix/matrix.c.obj
+build untitled3.exe: C_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/main.c.obj CMakeFiles/untitled3.dir/libs/data_structures/matrix/matrix.c.obj CMakeFiles/untitled3.dir/libs/data_structures/vector_void/vector_void.c.obj CMakeFiles/untitled3.dir/libs/data_structures/vector/vector.c.obj CMakeFiles/untitled3.dir/libs/data_structures/unordered_array_set/unordered_set.c.obj CMakeFiles/untitled3.dir/libs/data_structures/ordered_array_set/ordered_set.c.obj CMakeFiles/untitled3.dir/libs/data_structures/bitset/bitset.c.obj CMakeFiles/untitled3.dir/libs/algorithms/algorithm.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled3.dir
