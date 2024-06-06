@@ -84,8 +84,9 @@ void swapRows(matrix* m, int i1, int i2) {
 
 
 void swapColumns(matrix* m, int j1, int j2) {
-    for (int i = 0; i < m->n_rows; i++)
+    for (int i = 0; i < m->n_rows; i++) {
         swap(&m->values[i][j1], &m->values[i][j2]);
+    }
 }
 
 
@@ -105,7 +106,6 @@ void insertionSortRowsMatrixByRowCriteria(matrix* m, int (*criteria) (int*, int)
         while (j >= 0 && res_criteria[j] > key) {
             res_criteria[j + 1] = res_criteria[j];
             swapRows(m, j + 1, j);
-
             j -= 1;
         }
 
