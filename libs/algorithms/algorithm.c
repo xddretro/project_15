@@ -1,3 +1,6 @@
-//
-// Created by ReTro on 25.03.2024.
-//
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+# include <assert.h>
+#include "../data_structures/matrix/matrix.h"
+# define COS_OUT_OF_RANGE 2
