@@ -17,4 +17,7 @@ add_executable(untitled3 main.c
         libs/algorithms/array/array.c
         libs/data_structures/string/string_.c
         libs/data_structures/string/string_.h
+        task_exam/task.c
+        task_exam/task.c
+        libs/algorithms/algorithm.h
 )
